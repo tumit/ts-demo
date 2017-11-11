@@ -1,0 +1,28 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "npm init npm install jasmine-core jasmine @types/jasmine jasmine-ts --save-dev npm install --save @types/node",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-ts *.spec.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tumit/ts-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tumit/ts-demo/issues"
+  },
+  "homepage": "https://github.com/tumit/ts-demo#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.6.3",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "jasmine-ts": "^0.2.1"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.51"
+  }
+}
