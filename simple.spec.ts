@@ -1,5 +1,5 @@
-describe(`simple ts spec`, () => {
-  it(`should be true`, () => {
+describe(`simple js unit testing`, () => {
+  it(`simple test case`, () => {
     expect(true).toBe(true);
   });
 });
