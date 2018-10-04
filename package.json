@@ -1,28 +1,32 @@
 {
   "name": "ts-demo",
-  "version": "1.0.0",
-  "description": "npm init npm install jasmine-core jasmine @types/jasmine jasmine-ts --save-dev npm install --save @types/node",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-ts *.spec.*"
+    "test": "./node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tumit/ts-demo.git"
   },
-  "author": "",
+  "author": "@tumit",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tumit/ts-demo/issues"
-  },
-  "homepage": "https://github.com/tumit/ts-demo#readme",
   "devDependencies": {
-    "@types/jasmine": "^2.6.3",
-    "jasmine": "^2.8.0",
-    "jasmine-core": "^2.8.0",
-    "jasmine-ts": "^0.2.1"
+    "@types/jest": "^23.3.3",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.3",
+    "typescript": "^3.1.1"
   },
-  "dependencies": {
-    "@types/node": "^8.0.51"
+  "dependencies": {},
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   }
 }
