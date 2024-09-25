@@ -2,9 +2,7 @@
   "scripts": {
     "fn": "ts-node format.fn.ts",
     "build": "tsc",
-    "fn-js": "ts-node dist/format.fn.js",
-    "service": "ts-node format.service.ts",
-    "service-js": "ts-node dist/format.service.js"
+    "service": "ts-node format.service.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
