@@ -7,4 +7,4 @@ class FormatService {
 }
 
 const formatService = new FormatService();
-console.log(formatService.formatMobileNo('0891234567'))
+console.log('service', formatService.formatMobileNo('0891234567'))
