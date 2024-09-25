@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "fn": "ts-node *.fn.ts",
+    "fn": "ts-node format.fn.ts",
     "build": "tsc",
     "fn-js": "ts-node dist/format.fn.js",
-    "service": "ts-node *.service.ts",
+    "service": "ts-node format.service.ts",
     "service-js": "ts-node dist/format.service.js"
   },
   "devDependencies": {
