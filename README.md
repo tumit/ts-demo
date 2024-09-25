@@ -1,34 +1,69 @@
 ## ts-demo
 
-### Steps
-- install libs
+### install
 ```sh
-npm i typescript ts-node --save-dev
+npm install
 ```
 
-- create <root>/tsconfig.json (need this file for ts-node command)
-```json
-{
-  "compilerOptions": {
-    "outDir": "dist",
-    "target": "ES2021",
-    "module": "commonjs"
-  }
-}
+### run function
+```sh
+npm run fn
 ```
 
-- add script in package.json
-```json
-{
-  "scripts": {
-    "fn": "ts-node format.fn.ts",
-    "build": "tsc",
-    "js": "ts-node dist/format.fn.js",
-    "service": "ts-node format.service.ts"
-  },
-  "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
-  }
-}
+### expect
+```sh
+# > fn
+# > ts-node *.fn.ts
+
+# fn [TODO]
+```
+
+### run build
+```sh
+npm run build
+```
+
+### expect
+```sh
+# > build
+# > tsc
+```
+
+### run fn-js
+```sh
+npm run fn-js
+```
+
+### expect
+```sh
+# > fn-js
+# > ts-node dist/format.fn.js
+
+# fn [TODO]
+```
+
+### run service
+```sh
+npm run service
+```
+
+### expect
+```sh
+# > service
+# > ts-node *.service.ts
+
+# service [TODO]
+```
+
+### run service-js
+```sh
+npm run service-js
+```
+
+### expect
+```sh
+# > service-js
+# > ts-node dist/format.service.js
+
+# service [TODO]
 ```
