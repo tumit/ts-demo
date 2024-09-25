@@ -1,10 +1,10 @@
 class FormatService {
-
-  formatMobileNo(mobileNo: string): string {
-    return `[TODO]`
+  // string => string
+  mobileFormat(mobileNo: string): string {
+      return `[TODO]`;
   }
-
 }
 
-const formatService = new FormatService();
-console.log('service', formatService.formatMobileNo('0891234567'))
+// 0891234567 => 089-123-4567
+const formatService = new FormatService()
+console.log(formatService.mobileFormat('0891234567'))

@@ -1,5 +1,6 @@
-function formatMobileNo(mobileNo: string): string {
+function mobileFormat(mobileNo: string): string {
   return `[TODO]`
 }
 
-console.log('fn', formatMobileNo('0891234567'))
+console.log(mobileFormat('0891234568'))
+console.log(mobileFormat(true))
